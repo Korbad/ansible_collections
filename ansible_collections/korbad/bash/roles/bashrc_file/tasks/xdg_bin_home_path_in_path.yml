@@ -1,0 +1,4 @@
+---
+- import_tasks: ensure_xdg_user_home_child_path_is_in_path.yml
+  vars:
+    absolute_path_for_path_env_var: "{{ xdg_bin_home_path }}"
