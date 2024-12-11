@@ -1,0 +1,5 @@
+---
+- name: Install libvirt package
+  community.general.pacman:
+    name: libvirt
+  become: true

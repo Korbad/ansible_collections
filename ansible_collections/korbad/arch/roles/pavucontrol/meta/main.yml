@@ -1,0 +1,4 @@
+---
+dependencies:
+- pulse_alsa
+- pacman

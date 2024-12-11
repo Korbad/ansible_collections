@@ -1,0 +1,5 @@
+---
+- name: Ensure that git-annex is installed
+  community.general.pacman:
+    name: git-annex
+  become: true

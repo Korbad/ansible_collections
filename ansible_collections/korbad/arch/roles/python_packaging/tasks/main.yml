@@ -1,0 +1,5 @@
+---
+- name: Ensure that python packaging is installed
+  pacman:
+    name: python-packaging
+  become: true

@@ -1,0 +1,6 @@
+---
+- name: Install Cargo
+  ansible.builtin.pacman:
+    name: cargo
+    state: present
+  become: true

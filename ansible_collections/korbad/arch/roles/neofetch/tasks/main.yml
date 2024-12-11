@@ -1,0 +1,4 @@
+- name: Ensure neofetch is installed
+  pacman:
+    name: neofetch
+  become: true

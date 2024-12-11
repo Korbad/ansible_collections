@@ -1,0 +1,3 @@
+citrix_services:
+  - name: "citrix-wfica"
+    exec_start: "/opt/Citrix/ICAClient/wfica"

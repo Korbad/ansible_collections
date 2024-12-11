@@ -1,0 +1,5 @@
+---
+- name: Ensure that python setuptools is installed
+  pacman:
+    name: python-setuptools
+  become: true

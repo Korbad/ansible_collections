@@ -1,0 +1,5 @@
+---
+- name: Ensure that libadwaita is installed
+  community.general.pacman:
+    name: libadwaita
+  become: true

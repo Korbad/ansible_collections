@@ -1,0 +1,4 @@
+---
+- name: Ensure snapd package exists (AUR)
+  kewlfft.aur.aur:
+    name: snapd

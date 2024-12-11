@@ -1,0 +1,5 @@
+---
+- name: Ensure that pango is installed
+  pacman:
+    name: pango
+  become: true

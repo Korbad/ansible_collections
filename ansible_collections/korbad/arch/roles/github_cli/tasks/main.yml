@@ -1,0 +1,5 @@
+---
+- name: Ensure that github-cli is installed
+  community.general.pacman:
+    name: github-cli
+  become: true

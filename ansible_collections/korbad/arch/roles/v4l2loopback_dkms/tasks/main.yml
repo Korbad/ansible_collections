@@ -1,0 +1,4 @@
+- name: Ensure v4l2loopback-dkms is installed
+  pacman:
+    name: v4l2loopback-dkms
+  become: true

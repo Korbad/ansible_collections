@@ -1,0 +1,5 @@
+---
+- name: Ensure that gtk4 is installed
+  community.general.pacman:
+    name: gtk4
+  become: true

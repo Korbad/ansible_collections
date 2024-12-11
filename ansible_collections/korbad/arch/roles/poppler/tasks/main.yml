@@ -1,0 +1,6 @@
+---
+- name: Install poppler
+  community.general.pacman:
+    name: poppler
+  become: true
+

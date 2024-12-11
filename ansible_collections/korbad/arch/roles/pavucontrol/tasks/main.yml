@@ -1,0 +1,4 @@
+- name: Ensure the pavucontrol (Pulse Audio TUI) is installed
+  community.general.pacman:
+    name: pavucontrol
+  become: true

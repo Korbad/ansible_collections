@@ -1,0 +1,5 @@
+- name: Install auto-cpufreq from AUR
+  kewlfft.aur.aur:
+    name: auto-cpufreq
+    update_cache: true
+    state: latest

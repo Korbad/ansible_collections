@@ -1,0 +1,4 @@
+---
+- name: Ensure that the pandoc-bin is installed
+  kewlfft.aur.aur:
+    name: pandoc-bin

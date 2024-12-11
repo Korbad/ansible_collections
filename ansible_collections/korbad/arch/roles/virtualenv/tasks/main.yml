@@ -1,0 +1,4 @@
+- name: Ensure virtualenv is installed (Arch)
+  community.general.pacman:
+    name: python-virtualenv
+  become: true

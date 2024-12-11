@@ -1,0 +1,7 @@
+---
+- name: refresh shared lib cache with ldconfig
+  ansible.builtin.command:
+    cmd: ldconfig
+  become: true
+  listen: refresh shared lib cache with ldconfig
+...

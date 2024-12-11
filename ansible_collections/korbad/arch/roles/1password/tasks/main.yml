@@ -1,0 +1,16 @@
+---
+- name: Import 1Password signing key
+  shell: curl -sS https://downloads.1password.com/linux/keys/1password.asc | gpg --import
+
+- name: Install 1Password
+  kewlfft.aur.aur:
+    name: 1password
+    use: yay
+    state: latest
+
+- name: Install 1Password CLI
+  kewlfft.aur.aur:
+    name: 1password-cli
+    use: yay
+    state: latest
+...

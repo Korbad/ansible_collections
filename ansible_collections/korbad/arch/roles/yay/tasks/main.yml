@@ -1,0 +1,10 @@
+---
+- name: Install yay package manager
+  kewlfft.aur.aur:
+    name: yay
+    state: present
+
+- name: Update cache
+  community.general.pacman:
+    update_cache: true
+    executable: yay

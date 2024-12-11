@@ -1,0 +1,3 @@
+dependencies:
+  - korbad.arch.nvidia
+  - korbad.arch.vulkan

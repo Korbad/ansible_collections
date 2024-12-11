@@ -1,0 +1,4 @@
+- name: Ensure sudo is installed
+  pacman:
+    name: sudo
+  become: true

@@ -1,0 +1,6 @@
+---
+- name: Install fd
+  community.general.pacman:
+    name: fd
+  become: true
+

@@ -1,0 +1,5 @@
+---
+- name: Ensure that git is installed
+  community.general.pacman:
+    name: git
+  become: true

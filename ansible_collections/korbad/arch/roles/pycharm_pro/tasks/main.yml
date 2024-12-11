@@ -1,0 +1,4 @@
+---
+- name: Ensure pycharm pro is installed
+  kewlfft.aur.aur:
+    name: pycharm-professional

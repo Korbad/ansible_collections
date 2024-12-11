@@ -1,0 +1,5 @@
+---
+- name: Ensure that gdk-pixbuf2 is installed
+  community.general.pacman:
+    name: gdk-pixbuf2
+  become: true
