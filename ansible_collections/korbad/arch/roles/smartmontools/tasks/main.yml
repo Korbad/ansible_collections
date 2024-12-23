@@ -1,5 +1,0 @@
----
-- name: Ensure that the SMART monitoring tools are installed
-  pacman:
-    name: smartmontools
-  become: true

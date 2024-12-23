@@ -1,5 +1,0 @@
----
-- name: Ensure NCurses Disk Usage is installed
-  pacman:
-    name: ncdu
-  become: true

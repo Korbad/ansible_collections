@@ -1,5 +1,0 @@
----
-- name: Ensure cmake is installed
-  community.general.pacman:
-    name: cmake
-  become: true

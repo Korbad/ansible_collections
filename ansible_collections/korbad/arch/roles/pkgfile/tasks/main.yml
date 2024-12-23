@@ -1,4 +1,0 @@
-- name: Ensure pkgfile is installed
-  community.general.pacman:
-    name: pkgfile
-  become: true

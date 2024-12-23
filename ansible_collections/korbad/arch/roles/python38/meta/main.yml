@@ -1,7 +1,0 @@
----
-dependencies:
-- role: aur
-- name: yay
-- name: pkg_config
-- name: make
-- name: base_devel

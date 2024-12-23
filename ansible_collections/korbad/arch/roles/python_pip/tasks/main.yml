@@ -1,5 +1,0 @@
----
-- name: Ensure python-pip is installed
-  pacman:
-    name: python-pip
-  become: true

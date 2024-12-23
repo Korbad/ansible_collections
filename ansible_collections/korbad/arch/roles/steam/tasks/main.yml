@@ -1,4 +1,0 @@
-- name: Ensure Steam is installed
-  pacman:
-    name: steam
-  become: true

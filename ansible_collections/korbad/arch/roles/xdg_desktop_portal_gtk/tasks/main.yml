@@ -1,4 +1,0 @@
-- name: Ensure xdg-desktop-portal-gtk is installed
-  pacman:
-    name: xdg-desktop-portal-gtk
-  become: true

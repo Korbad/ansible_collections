@@ -1,6 +1,0 @@
----
-- name: Install jq
-  community.general.pacman:
-    name: jq
-  become: true
-

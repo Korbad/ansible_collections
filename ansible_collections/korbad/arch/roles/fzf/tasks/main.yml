@@ -1,5 +1,0 @@
----
-- name: Ensure that fzf is installed
-  community.general.pacman:
-    name: fzf
-  become: true

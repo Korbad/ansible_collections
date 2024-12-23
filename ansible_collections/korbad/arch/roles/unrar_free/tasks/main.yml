@@ -1,5 +1,0 @@
----
-- name: Ensure unrar-free is installed
-  pacman:
-    name: unrar-free
-  become: true

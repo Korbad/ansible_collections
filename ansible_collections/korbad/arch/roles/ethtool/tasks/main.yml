@@ -1,5 +1,0 @@
----
-- name: Ensure that ethtool is installed
-  community.general.pacman:
-    name: ethtool
-  become: true

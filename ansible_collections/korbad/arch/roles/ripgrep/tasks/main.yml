@@ -1,5 +1,0 @@
----
-- name: Ensure ripgrep is installed
-  community.general.pacman:
-    name: ripgrep
-  become: true

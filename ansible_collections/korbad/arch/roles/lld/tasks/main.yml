@@ -1,5 +1,0 @@
----
-- name: Ensure that the lld linker is installed
-  community.general.pacman:
-    name: lld
-  become: true

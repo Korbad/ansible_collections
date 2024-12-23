@@ -1,5 +1,0 @@
----
-- name: Ensure barrier is installed
-  pacman:
-    name: barrier
-  become: true

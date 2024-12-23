@@ -1,4 +1,0 @@
-- name: Install libx11
-  community.general.pacman:
-    name: libx11
-  become: true

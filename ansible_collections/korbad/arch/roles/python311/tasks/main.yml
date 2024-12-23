@@ -1,4 +1,0 @@
----
-- name: Install Python 3.11
-  kewlfft.aur.aur:
-    name: python311

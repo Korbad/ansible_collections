@@ -1,5 +1,0 @@
----
-- name: Ensure zed is installed
-  pacman:
-    name: zed
-  become: true

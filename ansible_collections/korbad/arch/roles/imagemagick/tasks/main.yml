@@ -1,6 +1,0 @@
----
-- name: Install imagemagick
-  community.general.pacman:
-    name: imagemagick
-  become: true
-

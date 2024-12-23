@@ -1,4 +1,0 @@
-- name: Ensure the pulseaudio-alsa interface is installed
-  community.general.pacman:
-    name: pulseaudio-alsa
-  become: true

@@ -1,5 +1,0 @@
----
-- name: Ensure virt-viewer is installed
-  community.general.pacman:
-    name: virt-viewer
-    executable: yay

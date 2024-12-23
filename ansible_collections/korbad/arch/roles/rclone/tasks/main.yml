@@ -1,6 +1,0 @@
----
-# https://rclone.org/overview/
-- name: Ensure rclone is installed
-  community.general.pacman:
-    name: rclone
-    update_cache: true

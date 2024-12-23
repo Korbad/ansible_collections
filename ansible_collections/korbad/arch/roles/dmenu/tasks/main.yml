@@ -1,5 +1,0 @@
----
-- name: Ensure dmenu is installed
-  community.general.pacman:
-    name: dmenu
-  become: true

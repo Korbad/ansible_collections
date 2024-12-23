@@ -1,5 +1,0 @@
----
-- name: Ensure that fuse2 is installed
-  community.general.pacman:
-    name: fuse2
-  become: true

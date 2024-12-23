@@ -1,4 +1,0 @@
----
-- name: Ensure wiper is installed
-  kewlfft.aur.aur:
-    name: wiper

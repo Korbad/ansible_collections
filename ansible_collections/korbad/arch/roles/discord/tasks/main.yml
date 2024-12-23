@@ -1,8 +1,0 @@
----
-- name: Install Discord
-  community.general.pacman:
-    name: discord
-    state: latest
-    update_cache: true
-  become: true
-

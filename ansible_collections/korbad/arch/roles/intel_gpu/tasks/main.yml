@@ -1,8 +1,0 @@
-- name: Install common packages for INTEL gpu
-  pacman:
-    name:
-      - xf86-video-intel
-      - mesa
-      - vulkan-intel
-    state: latest
-  become: true

@@ -1,5 +1,0 @@
----
-- name: Ensure ansible is installed
-  pacman:
-    name: ansible
-  become: true

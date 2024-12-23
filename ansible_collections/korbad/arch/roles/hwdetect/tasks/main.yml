@@ -1,5 +1,0 @@
----
-- name: Ensure hwdetect is installed
-  pacman:
-    name: hwdetect
-  become: true

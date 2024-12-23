@@ -1,9 +1,0 @@
-- name: Ensure that alsa-lib is installed (linux sound)
-  community.general.pacman:
-    name: alsa-lib
-  become: true
-
-- name: Ensure the alsa-utils audio codecs are installed
-  community.general.pacman:
-    name: alsa-utils
-  become: true

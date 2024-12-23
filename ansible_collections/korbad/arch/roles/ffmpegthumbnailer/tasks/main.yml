@@ -1,6 +1,0 @@
----
-- name: Install ffmpegthumbnailer
-  community.general.pacman:
-    name: ffmpegthumbnailer
-  become: true
-

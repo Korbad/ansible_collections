@@ -1,4 +1,0 @@
-- name: Install pip python bindings
-  community.general.pacman:
-    name: python-pip
-  become: true

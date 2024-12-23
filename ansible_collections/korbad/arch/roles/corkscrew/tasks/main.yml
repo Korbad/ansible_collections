@@ -1,5 +1,0 @@
----
-- name: Install Corkscrew
-  pacman:
-    name: corkscrew
-  become: true

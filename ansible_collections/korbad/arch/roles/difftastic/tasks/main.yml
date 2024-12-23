@@ -1,5 +1,0 @@
----
-- name: Ensure that difftastic is installed
-  community.general.pacman:
-    name: difftastic
-  become: true

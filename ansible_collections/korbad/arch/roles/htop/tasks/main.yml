@@ -1,5 +1,0 @@
----
-- name: Ensure htop is installed
-  community.general.pacman:
-    name: htop
-  become: true

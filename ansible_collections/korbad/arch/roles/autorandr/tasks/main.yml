@@ -1,5 +1,0 @@
----
-- name: Ensure that autorandr (X RandR CLI) is installed
-  pacman:
-    name: autorandr
-  become: true

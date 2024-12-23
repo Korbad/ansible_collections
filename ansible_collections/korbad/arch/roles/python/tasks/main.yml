@@ -1,7 +1,0 @@
----
-- name: Ensure that python is installed
-  pacman:
-    name: python
-  become: true
-
-

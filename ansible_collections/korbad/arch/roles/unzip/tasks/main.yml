@@ -1,4 +1,0 @@
-- name: Ensure unzip is installed
-  pacman:
-    name: unzip
-  become: true

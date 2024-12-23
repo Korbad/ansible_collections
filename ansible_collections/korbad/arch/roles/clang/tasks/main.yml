@@ -1,5 +1,0 @@
----
-- name: Ensure that clang is installed
-  community.general.pacman:
-    name: clang
-  become: true

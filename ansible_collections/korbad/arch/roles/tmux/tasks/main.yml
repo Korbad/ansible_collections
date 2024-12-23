@@ -1,5 +1,0 @@
----
-- name: Ensure tmux is installed
-  community.general.pacman:
-    name: tmux
-  become: true

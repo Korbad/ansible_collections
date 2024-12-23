@@ -1,5 +1,0 @@
----
-- name: Ensure falkon is installed
-  package:
-    name: falkon
-  become: true

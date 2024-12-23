@@ -1,1 +1,0 @@
-xdg_user_home_path: "{{ ansible_env.HOME }}"

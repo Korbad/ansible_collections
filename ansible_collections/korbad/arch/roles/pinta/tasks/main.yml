@@ -1,4 +1,0 @@
-- name: Ensure pinta is installed
-  pacman:
-    name: pinta
-  become: true

@@ -1,5 +1,0 @@
----
-- name: Ensure linux-firmware is installed
-  community.general.pacman:
-    name: linux-firmware
-  become: true

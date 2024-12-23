@@ -1,6 +1,0 @@
----
-# https://wiki.archlinux.org/title/PipeWire
-- name: Ensure that PipeWire is installed
-  pacman:
-    name: pipewire
-  become: true

@@ -1,5 +1,0 @@
----
-- name: Ensure stunnel_client is installed
-  pacman:
-    name: stunnel_client
-  become: true

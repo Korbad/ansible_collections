@@ -1,6 +1,0 @@
----
-- name: Ensure patch package is available
-  package:
-    name: patch
-    update_cache: true
-  become: true

@@ -1,5 +1,0 @@
----
-- name: Ensure that pacoloco is installed
-  pacman:
-    name: pacoloco
-  become: true

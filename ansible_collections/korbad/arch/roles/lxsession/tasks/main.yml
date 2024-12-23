@@ -1,5 +1,0 @@
----
-- name: Ensure that lxsession is installed
-  pacman:
-    name: lxsession
-  become: true

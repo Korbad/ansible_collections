@@ -1,5 +1,0 @@
----
-- name: Ensure that skim is installed
-  community.general.pacman:
-    name: skim
-  become: true

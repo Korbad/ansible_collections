@@ -1,4 +1,0 @@
----
-- name: Ensure hw-probe is installed
-  kewlfft.aur.aur:
-    name: hw-probe

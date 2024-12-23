@@ -1,5 +1,0 @@
----
-- name: Ensure that dracut is installed
-  community.general.pacman:
-    name: dracut
-  become: true

@@ -1,5 +1,0 @@
----
-- name: Ensure lapce is installed
-  community.general.pacman:
-    name: lapce
-  become: true

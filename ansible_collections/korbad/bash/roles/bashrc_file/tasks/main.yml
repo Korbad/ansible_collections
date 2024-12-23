@@ -1,8 +1,0 @@
-- import_role:
-    name: dabrok.filesystem.file
-  vars:
-    managed_file_path: "{{ managed_user_home_bashrc_file_path }}"
-
-- import_tasks: umask077.yml
-
-- import_tasks: xdg_bin_home_path_in_path.yml

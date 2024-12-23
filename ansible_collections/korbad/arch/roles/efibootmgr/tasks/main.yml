@@ -1,5 +1,0 @@
----
-- name: Ensure efibootmgr is installed
-  community.general.pacman:
-    name: efibootmgr
-  become: true

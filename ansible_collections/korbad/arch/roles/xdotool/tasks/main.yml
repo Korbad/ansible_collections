@@ -1,5 +1,0 @@
-- name: Ensure xdotool is installed
-  pacman:
-    name: xdotool
-    state: present
-  become: true
